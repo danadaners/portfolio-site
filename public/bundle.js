@@ -195,7 +195,7 @@ var Navbar = function Navbar() {
     spy: true,
     smooth: true
   }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "https://cdn1.iconfinder.com/data/icons/curious-shop-1/80/curiosshop-02-512.png"
+    src: "/cubeicon.png"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     className: "navigation"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_scroll__WEBPACK_IMPORTED_MODULE_1__.Link, {
