@@ -1,0 +1,13 @@
+.contact-wrapper{
+  background-color: #f3eac2;
+  height: 50vh;
+}
+
+#contact-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+}

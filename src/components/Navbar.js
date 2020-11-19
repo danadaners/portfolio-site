@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {Link} from 'react-scroll'
-import "./navbar.css";
+import "../styles/navbar.css";
 
 
 const Navbar = () => {
@@ -28,7 +28,6 @@ const [scrolled, setScrolled] = React.useState(false);
   return (
 
     <div>
-
       <header className={navbarClasses.join(" ")}>
         <div className="logo">
         <Link to="hero" spy={true} smooth={true}> <img src="https://cdn1.iconfinder.com/data/icons/curious-shop-1/80/curiosshop-02-512.png"></img></Link>

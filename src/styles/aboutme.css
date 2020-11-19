@@ -1,0 +1,13 @@
+.about-wrapper{
+  background-color: #e3e3e3;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
+
+#about-body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}

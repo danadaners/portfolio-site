@@ -1,0 +1,13 @@
+.projects-wrapper{
+  background-color: #9ad3bc;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
+
+#projects-body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}

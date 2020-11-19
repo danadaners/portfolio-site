@@ -4,12 +4,17 @@ import Navbar from './Navbar';
 import Projects from './Projects';
 import Contact from './Contact';
 import AboutMe from './AboutMe';
-import Hero from './Hero'
+import Hero from './Hero';
+import Sidebar from './Sidebar'
 
 function App() {
   return (
     <div>
       <Navbar/>
+     <div className="site-body-wrap">
+      <Sidebar/>
+      </div>
+    <div className="site-content">
       <div id="hero">
       <Hero/>
       </div>
@@ -22,7 +27,8 @@ function App() {
       <div id="contact">
       <Contact/>
       </div>
-    </div>
+      </div>
+      </div>
   );
 }
 

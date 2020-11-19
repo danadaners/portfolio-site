@@ -19,3 +19,7 @@ body {
 a {
   text-decoration: none;
 }
+
+.site-body-wrap{
+  display: flex;
+}

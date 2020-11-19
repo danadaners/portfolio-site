@@ -1,8 +1,16 @@
 .hero-wrapper{
-  background-color: #455d7a;
+  background-color:  #455d7a;
   height: 100vh;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+#hero-body{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+
 }
