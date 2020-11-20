@@ -17,7 +17,7 @@
 #greet {
   color: #ffe400;
   font-family: "Montserrat", sans-serif;
-  font-size: 15vw;
+  font-size: 12vw;
   letter-spacing: 8px;
   max-width: 80%;
   position: relative;
@@ -31,7 +31,7 @@
   font-family: "Alegreya", serif;
   font-family: "Work Sans", sans-serif;
   max-width: 80%;
-  font-size: 5vw;
+  font-size: 4vw;
   position: relative;
   /* text-transform: uppercase; */
 }
