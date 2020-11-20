@@ -6,9 +6,12 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: bold;
-  display: inline-block;
+  display: inline;
   transform: rotate(180deg);
   height: 100vh;
   position: fixed;
   text-align: center;
+  left: 0;
+  right: 0;
+  max-width: max-content;
 }

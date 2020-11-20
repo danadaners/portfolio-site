@@ -6,9 +6,15 @@ import Contact from './Contact';
 import AboutMe from './AboutMe';
 import Hero from './Hero';
 import Sidebar from './Sidebar'
+import Loader from './Loader'
 
-function App() {
+
+class App extends React.Component {
+
+ render(){
+
   return (
+
     <div>
       <Navbar/>
      <div className="site-body-wrap">
@@ -30,6 +36,7 @@ function App() {
       </div>
       </div>
   );
+}
 }
 
 export default App;

@@ -7,8 +7,8 @@ const Hero = () => {
 
       <div className="hero-wrapper">
         <div id="hero-body">
-        <h1>Hi, I'm Dana,</h1>
-        <h3>a full stack web developer.</h3></div>
+        <h1 id="greet">Hi, I'm Dana,</h1>
+        <h3 id="subgreet">a full stack web developer.</h3></div>
         </div>
     )
   }

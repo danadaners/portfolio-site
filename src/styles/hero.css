@@ -1,16 +1,38 @@
-.hero-wrapper{
-  background-color:  #455d7a;
-  height: 100vh;
+.hero-wrapper {
+  background-color: #272727;
+  min-height: 100vh;
   display: flex;
   text-align: center;
   width: 100%;
+  padding-top: 10vh;
 }
 
-#hero-body{
+#hero-body {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
+}
 
+#greet {
+  color: #ffe400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  letter-spacing: 8px;
+  max-width: 80%;
+  position: relative;
+  /* left: -4vw; */
+  margin-bottom: 10px;
+}
+
+#subgreet {
+  text-align: right;
+  color: #747474;
+  font-family: "Alegreya", serif;
+  font-family: "Work Sans", sans-serif;
+  max-width: 80%;
+  font-size: 30px;
+  position: relative;
+  /* text-transform: uppercase; */
 }

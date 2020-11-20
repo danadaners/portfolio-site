@@ -1,15 +1,14 @@
 .navbar {
-  width: 100%;
-  min-height: 6vh;
+width: 100%;
   max-height: 10vh;
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #eee;
-  /* background-color: transparent; */
-  transition: all 0.2s ease-in;
+  transition: all 0.3s linear;
   position: fixed;
+  right: 0;
+  z-index:99;
 }
 /* for phone screens */
 @media (max-width: 411px) {
@@ -27,11 +26,18 @@
   left: 0;
   background-color: transparent;
 }
+
+.scrollnav{
+  display: none;
+}
+
 .logo img {
   max-width: 50px;
+  height: auto;
 }
 .logo img:hover {
   max-width: 50px;
+  height: auto;
   cursor: pointer;
   transform: rotate(50deg);
 }
@@ -43,6 +49,7 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: bold;
+  max-width: 100%;
 }
 
 .navlink{
