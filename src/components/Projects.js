@@ -5,7 +5,7 @@ const Projects = () => {
 
     return(
       <div className="projects-wrapper"><div id="projects-body">
-        <h1>Some things I've made:</h1></div>
+        <h1>Some things I've Built:</h1></div>
         </div>
     )
   }
