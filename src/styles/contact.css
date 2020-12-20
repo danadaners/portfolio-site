@@ -1,5 +1,6 @@
 .contact-wrapper{
   height: 50vh;
+  color: white;
 }
 
 #contact-body{
@@ -11,4 +12,23 @@
 
 #thanks{
   max-width: 80%;
+}
+
+.contact-links{
+  color: white;
+  font-size: 3em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links a{
+  color: white;
+  margin: 2%;
+  opacity: 0.9;
+}
+
+.contact-links a:hover{
+  opacity: 1;
 }

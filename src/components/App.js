@@ -6,7 +6,6 @@ import Contact from './Contact';
 import AboutMe from './AboutMe';
 import Hero from './Hero';
 import Sidebar from './Sidebar'
-import Loader from './Loader'
 
 
 class App extends React.Component {

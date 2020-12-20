@@ -10,7 +10,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  min-width: 100%;
+width: 100vw;
   overflow: none;
   min-height: 100vh;
 }

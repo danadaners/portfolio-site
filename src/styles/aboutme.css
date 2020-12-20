@@ -10,3 +10,17 @@
   flex-direction: column;
   width: 100%;
 }
+
+#my-photo{
+  width: 170px;
+  height: auto;
+  border-radius: 50%;
+  filter: grayscale(1);
+  transition: all 0.7s ease;
+  max-width: 30vw;
+  /* border: 7px solid white; */
+}
+
+#my-photo:hover{
+  filter: none;
+}
