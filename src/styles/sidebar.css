@@ -1,17 +1,55 @@
-.sidebar{
-  writing-mode: vertical-rl;
+.sidebar {
   font-family: "Roboto", sans-serif;
-  font-size: large;
-  max-width: 60vw;
+  font-size: 24px;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  font-weight: bold;
-  display: inline;
-  transform: rotate(180deg);
-  height: 100vh;
   position: fixed;
-  text-align: center;
-  left: 0;
+  width: max-content;
+  color: white;
+  top: 0;
+  float: right;
   right: 0;
-  max-width: max-content;
+  z-index: 800;
+}
+
+#side-wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: max-content;
+  float: right;
+  margin-right: 1vw;
+}
+
+#line {
+  height: 30px;
+  width: 50%;
+  border-right: 1px solid white;
+}
+
+#linkedin {
+  font-size: 32px;
+}
+
+#longline {
+  height: 160px;
+  width: 50%;
+  border-right: 1px solid white;
+}
+
+.sidebar a {
+  color: white;
+  position: relative;
+  margin-top: 5px;
+}
+
+.sidebar a:hover {
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+/* for phone screens */
+@media (max-width: 730px) {
+  .sidebar {
+    display: none;
+  }
 }

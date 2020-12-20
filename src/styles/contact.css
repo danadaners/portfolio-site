@@ -10,25 +10,24 @@
   flex-direction: column;
 }
 
-#thanks{
-  max-width: 80%;
-}
-
 .contact-links{
   color: white;
-  font-size: 3em;
+  font-size: clamp(20px, 10vw, 40px);
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
+
 }
 
 .contact-links a{
   color: white;
   margin: 2%;
   opacity: 0.9;
+  position: relative;
 }
 
 .contact-links a:hover{
   opacity: 1;
+  bottom: 5px;
 }

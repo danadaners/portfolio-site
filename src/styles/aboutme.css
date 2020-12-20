@@ -1,26 +1,166 @@
-.about-wrapper{
-  height: 100vh;
+.about {
+  min-height: 100vh;
+  color: white;
+  max-width: 100vw;
+  user-select: none;
   display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.about h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 4vh;
+  color: #ff414e;
+  margin-top: 6vh;
+}
+
+.intro {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro > #text {
+  width: 50%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  margin-right: 6vw;
+}
+
+.intro h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#my-photo {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  /* filter: grayscale(0.2); */
+  transition: all 0.7s ease;
+  max-width: 35vw;
+}
+
+
+#toolset {
+  width: 100%;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  align-items: center;
+}
+
+#toolset h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5vh;
+  color: #ffe400;
+  font-size: 23px;
+}
+
+#tools-wrapper {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
+}
+
+.tools {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  font-size: clamp(15px, 1vw, 22px);
+  list-style: none;
   text-align: center;
 }
 
-#about-body{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
+.tools li {
+  margin: 0 0 10px 0;
 }
 
-#my-photo{
-  width: 170px;
-  height: auto;
-  border-radius: 50%;
-  filter: grayscale(1);
-  transition: all 0.7s ease;
-  max-width: 30vw;
-  /* border: 7px solid white; */
+.tools h4 {
+  text-align: center;
+  margin-bottom: 3vh;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
 }
 
-#my-photo:hover{
-  filter: none;
+#interests {
+  /* background-color: #ff652f; */
+  background-color: rgba(0,0,0,0.25);
+  width: 50%;
+  opacity: 0.9;
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  padding: 2%;
+  margin-top: 3vh;
+  text-align: left;
+}
+
+#interests li{
+  margin: 0 0 5px 0;
+}
+
+#interests h3{
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+#interests #icon{
+  display: inline;
+  margin-right: 10px;
+  font-size: 16px;
+  color: white
+}
+
+@media (max-width: 735px) {
+  .tools {
+    font-size: 3vw;
+    width: 26%;
+  }
+  .tools li {
+    margin: 0 0 2px 0;
+  }
+  #toolset h2 {
+font-size: 3.5vw;
+  }
+  .tools h4 {
+    font-size: 3.2vw;
+  }
+  #interests{
+    font-size: 3vw;
+    width: 75%;
+  }
+  #interests h3{
+    font-size: 3.5vw;
+  }
+  .intro > #text {
+font-size: 3vw;
+  }
+  .intro h4 {
+font-size: 3.7vw;
+  }
+  .about h1 {
+    margin-top: 8vh;
+  }
 }

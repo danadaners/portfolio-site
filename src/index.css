@@ -10,25 +10,24 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-width: 100vw;
+  width: 100vw;
   overflow: none;
   min-height: 100vh;
+  max-width: 100vw;
 }
 
 a {
   text-decoration: none;
 }
 
-.site-body-wrap{
+.site-body-wrap {
   display: flex;
-  position:relative;
-  z-index:30;
-
+  position: relative;
+  z-index: 30;
 }
 
-.site-content{
+.site-content {
   display: flex;
   flex-direction: column;
   background-color: #272727;
-
 }
