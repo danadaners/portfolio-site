@@ -4,6 +4,12 @@ import { Link } from "react-scroll";
 import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 
+/*
+TODO: optimize contact form sizing for larger screens
+TODO: fade in animation for form
+
+*/
+
 class Contact extends React.Component {
   constructor(){
     super()
@@ -51,9 +57,9 @@ class Contact extends React.Component {
               <FaEnvelope />
             </a>
           </div>
-          <button onClick={this.toggleForm} id="showform">Show contact form</button>
+          <button onClick={this.toggleForm} id="showform">{this.state.show ? "Hide contact form" : "Show contact form"}</button>
 
-          {this.state.show === true ? <div className="contactform-wrap">
+          {this.state.show ? <div className="contactform-wrap">
             <ContactForm />
           </div> : null}
 

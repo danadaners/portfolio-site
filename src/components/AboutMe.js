@@ -2,7 +2,11 @@ import React from "react";
 import "../styles/aboutme.css";
 import me from "./assets/dana.jpg";
 import { FaPalette, FaGamepad, FaCarrot } from "react-icons/fa";
-
+/*
+TODO: fix sizing of elements for larger screens
+TODO: add scroll animations/parallax
+TODO: update about me intro so it's not so generic
+*/
 const AboutMe = () => {
   return (
     <div className="about">
@@ -41,7 +45,7 @@ const AboutMe = () => {
 
       <div id="toolset">
         <h2>
-          I am constantly learning new technologies. Here's my current toolset:
+          Here is my current toolset:
         </h2>
         <div id="tools-wrapper">
           <div className="tools key">

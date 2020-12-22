@@ -1,6 +1,12 @@
 import React from "react";
 import "../styles/work.css";
 
+/*
+TODO: add project modal or page for each project
+TODO: show wireframes, db schema, if applicable
+TODO: show medium articles here or under a new blog section?
+*/
+
 const Work = () => {
   return (
     <div className="projects">

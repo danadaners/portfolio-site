@@ -3,6 +3,12 @@ import "../styles/hero.css";
 import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-scroll";
 
+/*
+TODO: add parallax scrolling or anything that would make this less boring
+TODO: add a contact me button that scrolls to bottom
+TODO: fix spacing for large viewports
+*/
+
 const Hero = () => {
   return (
     <div className="hero-wrapper">
