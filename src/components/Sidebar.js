@@ -10,7 +10,9 @@ const Sidebar = React.memo(() => {
   return (
     <div className="sidebar">
       <div id="side-wrap">
-        <div id="longline"></div>
+      <div id="email-add">danazcodes@gmail.com</div>
+      <div id="line"></div>
+
         <a
           href="https://github.com/danadaners"
           target="_blank"
@@ -30,6 +32,8 @@ const Sidebar = React.memo(() => {
         <a href="mailto:danadaners@gmail.com" target="_blank" rel="noreferrer">
           <HiOutlineMailOpen />
         </a>
+        <div id="longline"></div>
+
       </div>
     </div>
   );

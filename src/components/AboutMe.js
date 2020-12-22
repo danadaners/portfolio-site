@@ -1,9 +1,7 @@
 import React from "react";
 import "../styles/aboutme.css";
-import dana from "./assets/dana.jpg";
-import { FaCode} from "react-icons/fa";
-import { GiSmartphone } from "react-icons/gi";
-import { ImEye } from "react-icons/im";
+import me from "./assets/dana.jpg";
+import { FaPalette, FaGamepad, FaCarrot } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
@@ -13,44 +11,44 @@ const AboutMe = () => {
       <div className="intro">
         <div id="text">
           <h4>I'm a full stack developer with a focus on the front end.</h4>
-         I am passionate about coding, design, and learning new technologies.
+  I'm passionate about coding and design. I love what I do because full stack development is the perfect combination of both. I enjoy writing optimized, modular, and well-documented code.
         </div>
-        <img src={dana} alt="dana" id="my-photo" width='650' height='650'/>
+        <img src={me} alt="me" id="my-photo" width='650' height='650'/>
 
       </div>
 
       <div id="interests">
-        <h3>When building projects, I like to prioritize:</h3>
+        <h3>When I'm not coding, I'm probably..</h3>
         <li>
           <p id="icon">
-            <ImEye />
+            <FaPalette />
           </p>
-          good UI/UX design
+          drawing, painting, or animating
         </li>
         <li>
           <p id="icon">
-            <GiSmartphone />
+            <FaGamepad />
           </p>
-          accessibility and responsiveness
+          playing video games
         </li>
         <li>
           <p id="icon">
-            <FaCode />
+            <FaCarrot />
           </p>
-          optimized and modular code
+          trying new recipes
         </li>
       </div>
 
       <div id="toolset">
         <h2>
-          Here's my current toolset:
+          I am constantly learning new technologies. Here's my current toolset:
         </h2>
         <div id="tools-wrapper">
           <div className="tools key">
             <h4>Front End</h4>
-            <li>JavaScript(ES6+), Node.js </li>
+            <li>JavaScript(ES6+), Node.js, npm </li>
             <li>React, Redux, Webpack, Babel </li>
-            <li>HTML, CSS, SASS, Bootstrap</li>
+            <li>CSS, SASS, Bootstrap</li>
           </div>
           <div className="tools back">
             <h4>Back End</h4>
@@ -61,8 +59,8 @@ const AboutMe = () => {
           </div>
           <div className="tools other">
             <h4>Other</h4>
-            <li>Heroku, Grunt, Gulp</li>
-            <li>Git, npm, Postman, Postico</li>
+            <li>Heroku, Netlify, Firebase </li>
+            <li>Git, Postman, Postico</li>
             <li>TDD - Mocha, Chai, Jasmine</li>
           </div>
         </div>

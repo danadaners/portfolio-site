@@ -54,7 +54,7 @@
   color: #ff652f;
   font-family: "Work Sans", sans-serif;
   width: 90%;
-  font-size: clamp(15px, 6vw, 35px);
+  font-size: clamp(12px, 4vw, 32px);
   position: relative;
   font-weight: bold;
   float: right;

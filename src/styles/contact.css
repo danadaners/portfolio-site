@@ -1,33 +1,159 @@
-.contact-wrapper{
-  height: 50vh;
+.contact-wrapper {
+  min-height: 100vh;
   color: white;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
 }
 
-#contact-body{
+#contact-body {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
-.contact-links{
+.contact-wrapper h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 4vh;
+  color: #ff414e;
+  margin-top: 2vh;
+}
+
+#contact-body h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #ffe400;
+  font-size: 20px;
+}
+
+.contact-links {
   color: white;
-  font-size: clamp(20px, 10vw, 40px);
+  font-size: clamp(20px, 10vw, 35px);
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
-.contact-links a{
+.contact-links a {
   color: white;
   margin: 2%;
   opacity: 0.9;
   position: relative;
 }
 
-.contact-links a:hover{
+.contact-links a:hover {
   opacity: 1;
   bottom: 5px;
+}
+
+#showform{
+  width: max-content;
+  border: none;
+  padding: 1%;
+  background-color: #ffe400;
+  font-family: "Work Sans", sans-serif;
+  font-size: larger;
+  margin-bottom: 3vh;
+}
+
+.contactform-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  min-height: 40vh;
+  background-color: rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  padding: 2%;
+}
+
+.contactform button {
+width: max-content;
+  border: none;
+  padding: 1% 2% 1% 2%;
+  background-color: #ffe400;
+  font-family: "Work Sans", sans-serif;
+}
+
+.contactform label {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 1vh;
+}
+
+.contactform input {
+  height: 8%;
+  min-height: 30px;
+  max-height: 40px;
+  width: 70%;
+  border-radius: 8px;
+  border: 2px solid white;
+  margin-bottom: 2vh;
+}
+
+.contactform textarea {
+  resize: none;
+  width: 70%;
+  height: 40%;
+  min-height: 150px;
+  max-height: 300px;
+  border-radius: 8px;
+  border: 2px solid white;
+  margin-bottom: 3vh;
+}
+
+.contactform input::placeholder {
+  font-family: "Work Sans", sans-serif;
+  padding-left: 1vw;
+}
+
+.contactform textarea::placeholder {
+  font-family: "Work Sans", sans-serif;
+  padding-left: 1vw;
+  padding-top: 1vw;
+}
+
+.contactform h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2vh;
+  color: #ffe400;
+  font-size: 15px;
+}
+
+.contactform h4 {
+  font-size: 12px;
+}
+
+.contact-wrapper a {
+  cursor: pointer;
+  margin-top: 3vh;
+}
+.contact-wrapper a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 735px) {
+  .contactform {
+    width: 90%;
+  }
 }

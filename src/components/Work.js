@@ -5,12 +5,13 @@ const Work = () => {
   return (
     <div className="projects">
       <div id="project-body">
-        <h1>Some things I've Built:</h1>
+        <h1>Work</h1>
       </div>
-
+<h3>Projects</h3>
       <div>Planningo</div>
       <div>Sugar Shack</div>
     </div>
+
   );
 };
 

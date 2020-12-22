@@ -1,28 +1,29 @@
 import React from "react";
 import "../styles/contact.css";
 import { Link } from "react-scroll";
-import { FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
+import ContactForm from "./ContactForm";
 
 class Contact extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      formOpen: false,
-    };
-    this.toggleContactForm = this.toggleContactForm.bind(this);
+  constructor(){
+    super()
+    this.state ={
+      show: false,
+    }
+    this.toggleForm = this.toggleForm.bind(this)
   }
-
-  toggleContactForm() {
+  toggleForm(){
     this.setState({
-      formOpen: !this.state.formOpen,
-    });
+      show: !this.state.show
+    })
   }
 
   render() {
     return (
       <div className="contact-wrapper">
+        <h1>Contact Me</h1>
         <div id="contact-body">
-          <h2>You can reach me at these following links...</h2>
+          <h2>You can reach me at these links:</h2>
           <div className="contact-links">
             <a
               href="https://github.com/danadaners"
@@ -30,7 +31,7 @@ class Contact extends React.Component {
               rel="noreferrer"
               title="Github"
             >
-              <FaGithub/>
+              <FaGithub />
             </a>
             <a
               href="https://www.linkedin.com/in/danazhang454
@@ -39,7 +40,7 @@ class Contact extends React.Component {
               target="_blank"
               title="LinkedIn"
             >
-              <FaLinkedin/>
+              <FaLinkedin />
             </a>
             <a
               href="mailto:danadaners@gmail.com"
@@ -47,15 +48,17 @@ class Contact extends React.Component {
               rel="noreferrer"
               title="Email"
             >
-              <FaEnvelope/>
+              <FaEnvelope />
             </a>
           </div>
+          <button onClick={this.toggleForm} id="showform">Show contact form</button>
 
-          <button onClick={this.toggleContactForm}>Or Contact me Here!</button>
-          {this.state.formOpen ? "Hello" : null}
+          {this.state.show === true ? <div className="contactform-wrap">
+            <ContactForm />
+          </div> : null}
 
           <Link to="hero" spy={true} smooth={true}>
-            <button>Scroll to Top</button>
+            Scroll to Top
           </Link>
         </div>
       </div>
