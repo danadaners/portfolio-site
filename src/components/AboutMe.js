@@ -50,7 +50,7 @@ const AboutMe = () => {
             <h4>Front End</h4>
             <li>JavaScript(ES6+), Node.js </li>
             <li>React, Redux, Webpack, Babel </li>
-            <li>CSS, SASS, Bootstrap</li>
+            <li>HTML, CSS, SASS, Bootstrap</li>
           </div>
           <div className="tools back">
             <h4>Back End</h4>
