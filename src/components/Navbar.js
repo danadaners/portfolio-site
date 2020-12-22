@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import "../styles/navbar.css";
 // import logo from "./assets/logo.png";
 
-const Navbar = () => {
+const Navbar = React.memo(() => {
   const [scrolled, setScrolled] = React.useState(false);
   const [prevOffset, setPrevOffset] = React.useState(0);
 
@@ -49,6 +49,6 @@ const Navbar = () => {
       </header>
     </div>
   );
-};
+});
 
 export default Navbar;

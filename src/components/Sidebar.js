@@ -6,7 +6,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { VscGithub } from "react-icons/vsc";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
-const Sidebar = () => {
+const Sidebar = React.memo(() => {
   return (
     <div className="sidebar">
       <div id="side-wrap">
@@ -33,6 +33,6 @@ const Sidebar = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Sidebar;
