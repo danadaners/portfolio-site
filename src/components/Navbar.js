@@ -40,7 +40,7 @@ const Navbar = React.memo(() => {
             About
           </Link>
           <Link to="projects" smooth={true} className="navlink">
-            Work
+            Projects
           </Link>
           <Link to="contact" smooth={true} className="navlink">
             Contact

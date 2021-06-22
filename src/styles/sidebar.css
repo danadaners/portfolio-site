@@ -6,7 +6,7 @@
   color: white;
   bottom: 0;
   float: right;
-  right: 0;
+  right: 20px;
   z-index: 800;
 }
 
@@ -16,7 +16,6 @@
   text-align: center;
   width: max-content;
   float: right;
-  margin-right: 1vw;
 }
 
 #line {

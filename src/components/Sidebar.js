@@ -10,8 +10,6 @@ const Sidebar = React.memo(() => {
   return (
     <div className="sidebar">
       <div id="side-wrap">
-      <div id="email-add">danazcodes@gmail.com</div>
-      <div id="line"></div>
 
         <a
           href="https://github.com/danadaners"

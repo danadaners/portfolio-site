@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Navbar from './Navbar';
-import Work from './Work';
+import Projects from './Projects';
 import Contact from './Contact';
 import AboutMe from './AboutMe';
 import Hero from './Hero';
@@ -24,7 +24,7 @@ class App extends React.Component {
       <AboutMe/>
       </div>
       <div id="projects">
-      <Work/>
+      <Projects/>
       </div>
       <div id="contact">
       <Contact/>
