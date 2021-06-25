@@ -20,15 +20,14 @@ class App extends React.Component {
       <div id="hero">
       <Hero/>
       </div>
-      <div id="about">
-      <AboutMe/>
-      </div>
       <div id="projects">
       <Projects/>
       </div>
+
       <div id="contact">
       <Contact/>
       </div>
+
       </div>
       <div className="site-body-wrap">
       <Sidebar/>

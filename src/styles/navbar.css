@@ -5,13 +5,11 @@
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eee;
   transition: all 0.2s linear;
   position: fixed;
   right: 0;
   z-index: 99;
   user-select: none;
-  /* will-change: transform; */
 }
 
 .scrolled {
@@ -42,12 +40,10 @@
 
 .navigation {
   float: right;
-  font-family: "Roboto", sans-serif;
+  font-family: "Work", Arial;
   font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-weight: bold;
   max-width: 100%;
+  color: #e5dfde
 }
 
 .navlink {
@@ -55,10 +51,11 @@
   margin: 1vw;
   width: fit-content;
   height: 100%;
+  padding-bottom: 2%;
+  border-bottom: 4px solid #FF6F61;
 }
 
 .navlink:hover {
-  border-bottom: 3px solid;
   cursor: pointer;
 }
 

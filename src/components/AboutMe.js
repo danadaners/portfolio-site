@@ -43,32 +43,7 @@ const AboutMe = () => {
         </li>
       </div>
 
-      <div id="toolset">
-        <h2>
-          Here is my current toolset:
-        </h2>
-        <div id="tools-wrapper">
-          <div className="tools key">
-            <h4>Front End</h4>
-            <li>JavaScript(ES6+), Node.js, npm </li>
-            <li>React, Redux, Webpack, Babel </li>
-            <li>CSS, SASS, Bootstrap</li>
-          </div>
-          <div className="tools back">
-            <h4>Back End</h4>
-            <li>Express</li>
-            <li>Sequelize</li>
-            <li>PostgresSQL</li>
-            <li>Socket.io</li>
-          </div>
-          <div className="tools other">
-            <h4>Other</h4>
-            <li>Heroku, Netlify, Firebase </li>
-            <li>Git, Postman, Postico</li>
-            <li>TDD - Mocha, Chai, Jasmine</li>
-          </div>
-        </div>
-      </div>
+
 
     </div>
   );

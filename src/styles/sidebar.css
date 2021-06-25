@@ -3,7 +3,7 @@
   font-size: 24px;
   position: fixed;
   width: max-content;
-  color: white;
+  color:  #e5dfde;
   bottom: 0;
   float: right;
   right: 20px;
@@ -21,7 +21,7 @@
 #line {
   height: 30px;
   width: 50%;
-  border-right: 1px solid white;
+  border-right: 1px solid  #e5dfde;
 }
 
 #linkedin {
@@ -31,7 +31,7 @@
 #longline {
   height: 160px;
   width: 50%;
-  border-right: 1px solid white;
+  border-right: 1px solid  #e5dfde;
 }
 
 .sidebar a {

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";
 import "../styles/navbar.css";
-// import logo from "./assets/logo.png";
+import logo from "./assets/logo.png";
 
 const Navbar = React.memo(() => {
   const [scrolled, setScrolled] = React.useState(false);
@@ -31,19 +31,22 @@ const Navbar = React.memo(() => {
     <div>
       <header className={navbarClasses.join(" ")}>
         <div className="logo">
-          {/* <Link to="hero" smooth={true}>
+          <Link to="hero" smooth={true}>
             <img src={logo} alt="logo" id="logo" />
-          </Link> */}
+          </Link>
         </div>
         <nav className={navLinkClasses.join(" ")}>
+        <Link to="/" smooth={true} className="navlink">
+            home
+          </Link>
           <Link to="about" smooth={true} className="navlink">
-            About
+            about
           </Link>
           <Link to="projects" smooth={true} className="navlink">
-            Projects
+            projects
           </Link>
           <Link to="contact" smooth={true} className="navlink">
-            Contact
+            contact
           </Link>
         </nav>
       </header>
