@@ -10,7 +10,6 @@ body {
   left: 0;
   right: 0;
   width: 100vw;
-  overflow: none;
   min-height: 100vh;
   max-width: 100vw;
   box-sizing: border-box;
@@ -30,7 +29,8 @@ a {
 .site-content {
   display: flex;
   flex-direction: column;
-  background-color: #211e1e;
+  background-image: linear-gradient(#211e1e, #363030);
+  /* background-color: #211e1e; */
 }
 
 

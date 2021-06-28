@@ -7,19 +7,15 @@
 }
 
 .project{
-  width: 60%;
+  width: 70%;
   height: 600px;
   text-align: center;
   margin-bottom: 6%;
   background-color: white;
   display: flex;
   flex-direction: column;
-justify-content: space-between;
-}
-
-.project .info{
-  background-color: pink;
-  height: 80%;
+  justify-content: space-between;
+  border-radius: 2%;
 }
 
 .project.planningo{
@@ -29,3 +25,4 @@ justify-content: space-between;
 .project.sugar-shack{
   margin-right: 10%;
 }
+

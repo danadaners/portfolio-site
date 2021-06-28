@@ -13,10 +13,8 @@ const Hero = () => {
         <h3 className="greeting">I'm a Software Engineer.</h3>
 
       </div>
-      {/* <button className="contact">Get in Touch</button> */}
-
       <div className="scroll-arrow">
-        <Link to="projects" smooth={true}>
+        <Link to="about" smooth={true}>
           <BsChevronDown />
         </Link>
       </div>

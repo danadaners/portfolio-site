@@ -14,11 +14,12 @@ const AboutMe = () => {
 
       <div className="intro">
         <div id="text">
+          I'm a software engineer in Boston.
+
           <h4>I'm a full stack developer with a focus on the front end.</h4>
-  I'm passionate about coding and design. I love what I do because full stack development is the perfect combination of both. I enjoy writing optimized, modular, and well-documented code.
+          <h4>Here are some of the technologies I use:</h4>
         </div>
         <img src={me} alt="me" id="my-photo" width='650' height='650'/>
-
       </div>
 
       <div id="interests">

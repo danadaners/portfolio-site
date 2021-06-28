@@ -1,16 +1,13 @@
 import React from "react";
-import "../styles/sidebar.css";
-
 import { TiSocialLinkedinCircular } from "react-icons/ti";
-
 import { VscGithub } from "react-icons/vsc";
 import { HiOutlineMailOpen } from "react-icons/hi";
+import "../styles/sidebar.css";
 
-const Sidebar = React.memo(() => {
+const Sidebar = () => {
   return (
     <div className="sidebar">
       <div id="side-wrap">
-
         <a
           href="https://github.com/danadaners"
           target="_blank"
@@ -31,10 +28,9 @@ const Sidebar = React.memo(() => {
           <HiOutlineMailOpen />
         </a>
         <div id="longline"></div>
-
       </div>
     </div>
   );
-});
+};
 
 export default Sidebar;

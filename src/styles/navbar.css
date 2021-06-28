@@ -16,7 +16,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: transparent;
+  /* background-color: black;
+  opacity: 0.8; */
   transition: all 0.2s linear;
 }
 
@@ -43,7 +44,7 @@
   font-family: "Work", Arial;
   font-size: 18px;
   max-width: 100%;
-  color: #e5dfde
+  color: #e5dfde;
 }
 
 .navlink {
@@ -51,6 +52,7 @@
   margin: 1vw;
   width: fit-content;
   height: 100%;
+  padding-top: 3%;
   padding-bottom: 2%;
   border-bottom: 4px solid #FF6F61;
 }

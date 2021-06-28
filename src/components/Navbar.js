@@ -3,6 +3,8 @@ import { Link } from "react-scroll";
 import "../styles/navbar.css";
 import logo from "./assets/logo.png";
 
+// TODO: Make active page the only one with the underline
+
 const Navbar = React.memo(() => {
   const [scrolled, setScrolled] = React.useState(false);
   const [prevOffset, setPrevOffset] = React.useState(0);
@@ -31,14 +33,11 @@ const Navbar = React.memo(() => {
     <div>
       <header className={navbarClasses.join(" ")}>
         <div className="logo">
-          <Link to="hero" smooth={true}>
+          {/* <Link to="hero" smooth={true}>
             <img src={logo} alt="logo" id="logo" />
-          </Link>
+          </Link> */}
         </div>
         <nav className={navLinkClasses.join(" ")}>
-        <Link to="/" smooth={true} className="navlink">
-            home
-          </Link>
           <Link to="about" smooth={true} className="navlink">
             about
           </Link>
